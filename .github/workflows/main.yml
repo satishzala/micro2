@@ -1,0 +1,72 @@
+# to give commnets
+# its not programming or scripting
+# it just a way of storing data in form of key: value
+# a file with YAML code will have extension .yml or .yaml
+# declarative code
+# Syntax =>  key: value
+# keys are generally provided to us by the tool
+# we just have to provide the values
+# a key: value in YAML is called as a map
+# a key cna store- a string, a number or list of values or a map
+
+
+# Example 1: A key storing a single value
+
+
+Company: Demo
+Trainer: Sonal Mittal
+Trainings: Devops
+Day: Weekday
+Time: 7AM
+
+
+# Example 2: A key storing a list of values
+
+
+---
+Company: Demo
+Trainers:
+    - Sonal Mittal
+    - Ravi
+    - Marc
+    - Jack
+Trainings:
+    - devops
+    - aws
+    - mlops
+    - gcp
+
+
+# Example 3: A key storing a map(key and value)
+
+
+---
+Company: Demo
+Trainers:
+    - name: sonal
+      phone: 35345646
+      email: 2435sdfdg@fdg
+    - name: Ravi
+      phone: 35436456
+      email: t566@fdg
+    - name: Marc
+      phone: 87675656
+      email: 2435@fdg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
